@@ -28,5 +28,10 @@ namespace Login_for_DINK.Views
         {
             Navigation.PushAsync(new RegisterPage());
 		}
+
+        private void GoToPrincipal(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Tabbed());
+		}
 	}
 }

@@ -117,6 +117,7 @@
                 </controls:StandardEntry>
                 <Button
                 Text="SUBMIT"
+                 FontSize="14"
                 FontFamily="Quicksand_Bold"
                 BackgroundColor="#964399"
                 HeightRequest="45"

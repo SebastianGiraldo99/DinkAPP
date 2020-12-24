@@ -20,8 +20,7 @@
             </ffimageloadingsvg:SvgImageSourceConverter>
         </ResourceDictionary>
     </ContentPage.Resources>
-    <ContentPage.Content    
-        >
+    <ContentPage.Content        >
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="0.45*" ></RowDefinition>
@@ -46,14 +45,18 @@
             </StackLayout>
             <FlexLayout Grid.Column="0" Grid.Row="1" JustifyContent="SpaceAround" Direction="Column"  >
                 
-                  <Label 
+                  <!--<Label 
                    Margin ="30,0,30,0"
                    Text="Email"
                    HorizontalOptions="Start"
                    FontSize="14"
                    TextColor="Black"
                    FontFamily="Quicksand_Bold">
-                    </Label>
+                    </Label>-->
+                <Label FontFamily="dinkfont.ttf"
+                       Text="/e900">
+                    
+                </Label>
                     <controls:StandardEntry   
                    FontFamily="Quicksand_Light"
                    FontSize="14"
@@ -102,13 +105,15 @@
                 <Button
                 Text="SUBMIT"
                 FontFamily="Quicksand_Bold"
+                    FontSize="14"
                 BackgroundColor="#964399"
                 HeightRequest="45"
                 TextColor="White"
                 Margin="0,20,0,0"
                 WidthRequest="160"
                 FlexLayout.AlignSelf="Center"
-                CornerRadius="8">
+                CornerRadius="8"
+                Clicked="GoToPrincipal">
 
                 </Button>
 

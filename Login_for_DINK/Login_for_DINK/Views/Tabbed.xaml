@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:Login_for_DINK="clr-namespace:Login_for_DINK.Views"
+            x:Class="Login_for_DINK.Views.Tabbed"
+  NavigationPage.HasNavigationBar="False"
+            xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+            android:TabbedPage.ToolbarPlacement="Bottom"
+            BarBackgroundColor="Transparent"
+            
+           
+            
+            >
+  <!--Pages can be added as references or inline-->
+
+
+    <Login_for_DINK:HomePage   Title="1" IconImageSource="@mipmap/home_icon"></Login_for_DINK:HomePage>
+    <Login_for_DINK:AcademyPage  Title="2"></Login_for_DINK:AcademyPage>
+    <Login_for_DINK:LoginPage Title="3"></Login_for_DINK:LoginPage>
+    <Login_for_DINK:CategoryPage Title="4" ></Login_for_DINK:CategoryPage>
+    <Login_for_DINK:UserPage  Title="5"></Login_for_DINK:UserPage>
+</TabbedPage>

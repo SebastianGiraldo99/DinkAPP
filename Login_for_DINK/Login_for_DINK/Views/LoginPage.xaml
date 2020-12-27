@@ -53,11 +53,11 @@
                    TextColor="Black"
                    FontFamily="Quicksand_Bold">
                     </Label>-->
-                <Label FontFamily="dinkfont.ttf"
-                       Text="/e900">
-                    
-                </Label>
-                    <controls:StandardEntry   
+                <Label
+                    FontFamily="fontdink.ttf"
+                    Text="&#xE802;"
+                    FontSize="32"></Label>
+                <controls:StandardEntry   
                    FontFamily="Quicksand_Light"
                    FontSize="14"
                    Placeholder="email@miemail.com"

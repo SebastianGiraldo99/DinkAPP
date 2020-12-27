@@ -7,4 +7,4 @@ using Xamarin.Forms;
 
 [assembly: ExportFont("Quicksand_Book.otf")]
 [assembly: ExportFont("Quicksand_Light.otf")]
-[assembly: ExportFont("dinkfont.ttf")]
+[assembly: ExportFont("fontdink.ttf")]
